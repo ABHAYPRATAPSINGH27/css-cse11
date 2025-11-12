@@ -1,0 +1,52 @@
+/* h2{
+    color: red;
+}
+p{
+    color: brown, red , green;
+    text-align: center;
+    font-size: 25px;
+}
+.par{
+    color: chartreuse;
+    background-color: black;
+}
+#ac{
+     color: antiquewhite;
+
+}
+#pp{
+    color: rbg( red,green, blue);
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    background-color: azure;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    margin: 100px;
+    border: 1px solid red;
+
+
+} */
+
+
+div{
+    align-content: center;
+    padding: 30px;
+    margin: 40px;
+    border: 10px solid;
+
+}
+h2{
+    text-align: left;
+    color: red;
+    align-content: center;
+
+}
+h1{
+    text-align: center ;
+    color: rgb(102, 35, 102);
+    align-content: center;
+}
