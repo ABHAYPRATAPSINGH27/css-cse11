@@ -1,0 +1,59 @@
+  /* @media(condition){
+        CSS styles here
+    } 
+     @media(max-width){
+        body{
+            back-ground: ;
+        }
+    }    
+
+    320- small phones 
+    480- lrge phones
+    768- tablets
+    1024- small desktops
+    1200+ - desktops  */
+
+@media(max-width: 768px){
+    p{
+       font-size: 25px;
+       background-color: blue;
+    }
+    
+}    
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+
+}
+
+@media(max-width: 768px){
+   .box{
+    background-color: red;
+     }
+}
+
+li{
+    list-style-type: none;
+    text-decoration: dotted;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ @media(max-width){
+        body{
+            background-color: brown;
+        }
+    }
+
+@media(max-width: 768px){
+   .ul{
+    display: none;
+    
+     }
+}
