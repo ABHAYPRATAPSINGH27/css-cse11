@@ -45,6 +45,11 @@ nav ul{
     justify-content: space-around;
 }
 
+nav ul (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+}
+
  @media(max-width){
         body{
             background-color: brown;
@@ -52,8 +57,7 @@ nav ul{
     }
 
 @media(max-width: 768px){
-   .ul{
+   .menu{
     display: none;
-    
-     }
+    }
 }
